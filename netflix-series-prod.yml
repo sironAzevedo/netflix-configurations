@@ -1,6 +1,6 @@
 spring:
     datasource:
-        url: jdbc:postgresql://netflix-series-pg12:5435/db_netflix-series
+        url: jdbc:postgresql://localhost:5435/db_netflix_series
         driver-class-name: org.postgresql.Driver
         username: postgres
         password: root
@@ -29,4 +29,4 @@ spring:
         locations:
             - classpath:db/migration
 kafka:
-  bootstrapAddress: netflix-kafka:9092
+  bootstrapAddress: localhost:9092
